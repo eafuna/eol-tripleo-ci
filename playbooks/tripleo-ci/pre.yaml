@@ -1,0 +1,6 @@
+---
+- hosts: all
+  name: Common tasks for nodes preparation
+  roles:
+    - role: ci-common-vars
+    - role: prepare-node
